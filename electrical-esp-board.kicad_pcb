@@ -2874,6 +2874,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
     )
+    (model "/Users/harrybarnish/Developer/gits/hyperlink/electrical/electrical-kicad/footprints/DM-OLED096-636.pretty/DM-OLED096-636.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" (layer "F.Cu")
@@ -3423,7 +3428,12 @@
       (net 2 "GND") (pinfunction "GND") (pintype "input") (solder_mask_margin 0.102) (tstamp 1b43e33c-79e4-4e33-8b22-338af4db61dc))
     (pad "30" thru_hole circle (at 12.7 -15.515) (size 2 2) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 3 "+5V") (pinfunction "VIN") (pintype "power_in") (solder_mask_margin 0.102) (tstamp ed6698bd-204a-4d65-9042-a660d91498a5))
-    (model "/Users/harrybarnish/Documents/kicad-footprints/ESP32-DEVKIT-V1/ESP32-DEVKIT-V1--3DModel-STEP-269445.STEP"
+    (model "/Users/harrybarnish/Documents/kicad-footprints/ESP32-DEVKIT-V1/ESP32-DEVKIT-V1--3DModel-STEP-269445.STEP" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+    (model "/Users/harrybarnish/Developer/gits/hyperlink/electrical/electrical-kicad/footprints/ESP32-DEVKIT-V1.pretty/ESP32-DEVKIT-V1--3DModel-STEP-269445.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
